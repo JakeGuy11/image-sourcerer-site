@@ -7,13 +7,9 @@
     <body>
         <center>
             <div style="width:50%;">
-                <div class="drop-file" ondrop="upload_file(event)" ondragover="return false">
-                    <div style="width:100%;margin:0 auto;">
-                        <p>Drag image(s) to decode here</p>
-                        <p>or</p>
-                        <p><input type="button" value="Select them..." onclick="file_explorer();" /></p>
-                        <input style="display:none;" type="file" id="select-file" multiple />
-                    </div>
+                Upload your image(s) here:<br>
+                <div style="border-style:dashed;border-width:4px;border-color:#999999;border-radius:15px;width:50%;margin:10px;">
+                    <input id="file-sel" type="file" name="filename" style="width:100%;padding-top:50px;padding-bottom:50px;" multiple/>
                 </div>
                 <div id="feed"></div>
             </div>
