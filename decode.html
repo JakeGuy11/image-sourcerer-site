@@ -6,8 +6,19 @@
     </head>
     <body>
         <center>
-            <img height=50% src="res/logo-under-construction.svg">
+            <div style="width:50%;">
+                <div class="drop-file" ondrop="upload_file(event)" ondragover="return false">
+                    <div style="width:100%;margin:0 auto;">
+                        <p>Drag image(s) to decode here</p>
+                        <p>or</p>
+                        <p><input type="button" value="Select them..." onclick="file_explorer();" /></p>
+                        <input style="display:none;" type="file" id="select-file" multiple />
+                    </div>
+                </div>
+                <div id="feed"></div>
+            </div>
         </center>
     </body>
     <script src="header.js"></script>
+    <script src="decode.js"></script>
 </html>
