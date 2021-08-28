@@ -5,15 +5,28 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <center>
-            <div style="width:50%;">
+        <div style="width:50%;margin-left:25%;margin-right:25%;">
+            <div style="margin-left:10%;margin-right:10%;">
                 Upload your image(s) here:<br>
                 <div style="border-style:dashed;border-width:4px;border-color:#999999;border-radius:15px;width:50%;margin:10px;">
                     <input id="file-sel" type="file" name="filename" style="width:100%;padding-top:50px;padding-bottom:50px;" multiple/>
                 </div>
-                <div id="feed"></div>
             </div>
-        </center>
+            <div id="feed">
+                <div style="marin:10px;">
+                    <div style="display:inline-block;width:100%;height:auto;">
+                        <img style="float:left;max-width:50%;height:auto;width:auto;border: 3px solid black;border-radius:10px;" src="url">
+                        <div style="display:inline-block;width:45%;float:left;margin-left:5px;">
+                            <div style="width:100%;word-wrap:break-word;float:left;">
+                                <b>Saved as:</b> ~/path/to/download<br><br>
+                                <b>Source:</b> https://www.thisiseventuallygonnabeamassiveurl.com/withsomeextralargenumbers/<br><br>
+                                <b>OP is:</b> "op name here"<br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
     <script src="header.js"></script>
     <script src="decode.js"></script>
