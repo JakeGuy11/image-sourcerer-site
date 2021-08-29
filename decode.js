@@ -1,5 +1,21 @@
 var fileInput = document.getElementById("file-sel");
 
+function dropHandler(ev) {
+  ev.preventDefault();
+
+  if (ev.dataTransfer.items) {
+    for (var i = 0; i < ev.dataTransfer.items.length; i++) {
+      if (ev.dataTransfer.items[i].kind === 'file') {
+        process_image(ev.dataTransfer.items[i].getAsFile());
+      }
+    }
+  }
+}
+
+function dragOverHandler(ev) {
+    ev.preventDefault();
+}
+
 fileInput.onchange = function(event) {
 	var fileList = event.target.files;
 	var interestedFile = fileList[0];
