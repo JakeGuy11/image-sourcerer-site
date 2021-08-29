@@ -7,9 +7,10 @@
     <body>
         <div style="width:50%;margin-left:25%;margin-right:25%;">
             <div style="margin-left:10%;margin-right:10%;">
-                Upload your image(s) here:<br>
-                <div style="border-style:dashed;border-width:4px;border-color:#999999;border-radius:15px;width:50%;margin:10px;">
-                    <input id="file-sel" type="file" name="filename" style="width:100%;padding-top:50px;padding-bottom:50px;" multiple/>
+                <br><center>Upload your image(s) here:</center>
+                <div class="drop-box" onclick="document.getElementById('file-sel').click();"  ondragover="dragOverHandler(event);" ondrop="dropHandler(event);">
+                    <input id="file-sel" style="display:none" type="file" accept="image/*" multiple/>
+                    Click or drag to select images...
                 </div>
             </div>
             <div id="feed">
