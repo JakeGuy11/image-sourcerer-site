@@ -47,7 +47,7 @@ function process_image(interestedFile) {
             var splitFile = imageReader.result.split("THISISUNIQUE");
             var splitFileSecond = splitFile[1].split("THISISUNIQU"); // depending on the last few characters, it could be 'UNIQUA' or 'UNIQUE'
             var encodedData = splitFileSecond[0];
-        } catch (err) { alert("This image is not recognized!"); }
+        } catch (err) { alert("This image is not recognized by Image Sourcerer"); }
 
         // This is where we split ways on v001 and v002
         if (atob(encodedData).substr(0,4)=="v001" || atob(encodedData).substr(0,4)=="v002") {
@@ -64,7 +64,7 @@ function process_image(interestedFile) {
                 injection_data = injection_data.replace("SRC_INJECTION_SITE", imageReader.result);
                 document.getElementById("feed").innerHTML += injection_data;
             } else if (data_array[0] == "v003") console.log("new image");
-            else alert("This image is not recognized");
+            else alert("This image is not recognized by Image Sourcerer");
         } else {
             // The image is v003 or greater
             var data_array = unescape(atob(encodedData)).split(";&&;");
@@ -73,7 +73,7 @@ function process_image(interestedFile) {
                 injection_data = injection_data.replace("INFO_INJECTION_SITE", info_str);
                 injection_data = injection_data.replace("SRC_INJECTION_SITE", imageReader.result);
                 document.getElementById("feed").innerHTML += injection_data;
-            } else alert("This image is not recognized");
+            } else alert("This image is not recognized by Image Sourcerer");
         }
     };
 }
