@@ -46,3 +46,18 @@ li {
     transition: 0.5s;
 }
 
+.drop-box {
+    height: 150px;
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    border-style: dashed;
+    border-width: 4px;
+    border-color: #999999;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
