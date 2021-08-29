@@ -7,7 +7,17 @@
     <body>
         <div style="width:50%;margin-left:25%;margin-right:25%;">
             <div style="margin-left:10%;margin-right:10%;">
-                <br><center>Upload your image(s) here:</center>
+                <center>
+                    Upload any images you would like to decode here.
+                    <p style="font-size: 12px;">
+                        Any data versions since v001 (April 2021) are readable. 
+                        If you would like to find the source of an image that was 
+                        <i>not</i> downloaded through Image-Sourcerer or whose 
+                        data has been corrupted, head over to 
+                        <a href="https://saucenao.com/">SauceNAO</a> to try to find 
+                        a match (not affiliated). 
+                    </p>
+                </center>
                 <div class="drop-box" onclick="document.getElementById('file-sel').click();"  ondragover="dragOverHandler(event);" ondrop="dropHandler(event);">
                     <input id="file-sel" style="display:none" type="file" accept="image/*" multiple/>
                     Click or drag to select images...
