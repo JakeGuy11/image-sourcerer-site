@@ -32,6 +32,50 @@ li.header {
 	float: right;
 }
 
+ul.bug-list {
+    list-style: none;
+}
+
+li.bug-green::before {
+    content: "\2218";
+    font-size:18px;
+    color: #639d66;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li.bug-yellow::before {
+    content: "\2218";
+    font-size:18px;
+    color: #d5ca6a;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li.bug-red::before {
+    content: "\2218";
+    font-size:18px;
+    color: #c94141;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+li.bug-blue::before {
+    content: "\2218";
+    font-size:18px;
+    color: #6699cc;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
 .nav-entry {
 	height: 120px;
 	padding: auto;
