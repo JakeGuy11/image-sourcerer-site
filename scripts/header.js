@@ -1,4 +1,4 @@
-let content = `
+let header_content = `
 <ul class="header">
     <li style="padding:0px;float:left;"><a href="index.html"><img style="height:100px;margin:10px;" src="res/logo.svg"></a></li>
     <li class="header"><a class="nav-entry" href="download.html"><img height=32px src="res/menu-options/download.svg"></a></li>
@@ -8,4 +8,37 @@ let content = `
     <li class="header"><a class="nav-entry" href="decode.html"><img height=32px src="res/menu-options/decode.svg"></a></li>
 </ul>
 `;
-document.body.innerHTML = content + document.body.innerHTML;
+
+let footer_content = `
+<div class="footer-div">
+    <div style="display:table-cell;vertical-align:middle;text-align:center;">
+        <ul class="footer">
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer">&copy; 2021 JakeGuy11</li>
+            <li class="footer"><a href="https://github.com/JakeGuy11/image-sourcerer/blob/main/LICENSE">View License</a></li>
+            <li class="footer"> </li>
+        </ul>
+    </div>
+    <div style="white-space:no-wrap;display:table-cell;width:1%;">
+        <img style="height:50px;margin:15px;" src="res/src/icon.svg">
+    </div>
+    <div style="display:table-cell;vertical-align:middle;text-align:center;">
+        <ul class="footer" style="marin-top:5px;">
+            <li class="footer"> </li>
+            <li class="footer"><a href="https://github.com/JakeGuy11/image-sourcerer">Extension Code</a></li>
+            <li class="footer"><a href="https://github.com/JakeGuy11/image-sourcerer-site">Site Code</a></li>
+            <li class="footer"><a href="https://github.com/JakeGuy11/image-sourcerer-proxy">Proxy Code</a></li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+        </ul>
+    </div>
+</div>
+`;
+
+document.body.innerHTML = header_content + document.body.innerHTML + footer_content;
