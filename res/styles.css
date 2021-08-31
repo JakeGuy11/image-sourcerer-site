@@ -2,6 +2,9 @@
 
 html, body {
     height: calc(100% - 78px);
+    height: -webkit-calc(100% - 78px);
+    height: -moz-calc(100% - 78px);
+    height: -o-calc(100% - 78px);
     margin: 0;
 }
 
