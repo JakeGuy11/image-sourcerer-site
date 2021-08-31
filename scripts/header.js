@@ -16,7 +16,11 @@ let footer_content = `
             <li class="footer"> </li>
             <li class="footer"> </li>
             <li class="footer"> </li>
-            <li class="footer">&copy; 2021 JakeGuy11</li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer"> </li>
+            <li class="footer">Copyright &copy; 2021 JakeGuy11</li>
             <li class="footer"><a href="https://github.com/JakeGuy11/image-sourcerer/blob/main/LICENSE">View License</a></li>
             <li class="footer"> </li>
         </ul>
