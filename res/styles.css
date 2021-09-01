@@ -43,6 +43,23 @@ ul.header {
 	/*box-shadow: 0 10px 6px 2px rgba(170, 170, 170, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
+li.header {
+	display: inline;
+	float: right;
+}
+
+.nav-entry {
+    height: 120px;
+	padding: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin: auto;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+    transition: 0.5s;
+}
+
 ul.footer {
     text-align: justify;
 }
@@ -51,11 +68,6 @@ ul.footer:after {
     content: '';
     width: 100%;
     display: inline-block;
-}
-
-li.header {
-	display: inline;
-	float: right;
 }
 
 li.footer {
@@ -104,18 +116,6 @@ li.bug-blue::before {
     display: inline-block;
     width: 1em;
     margin-left: -1em;
-}
-
-.nav-entry {
-	height: 120px;
-	padding: auto;
-	padding-left: 25px;
-	padding-right: 25px;
-	margin: auto;
-	text-align: center;
-	display: table-cell;
-	vertical-align: middle;
-    transition: 0.5s;
 }
 
 .nav-entry:hover {
