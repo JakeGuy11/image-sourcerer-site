@@ -40,6 +40,7 @@ ul.header {
 	margin-top: 0px;
 	width: 100%;
 	height: 120px;
+    z-index: 999;
 	/*box-shadow: 0 10px 6px 2px rgba(170, 170, 170, 1), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
