@@ -5,14 +5,9 @@
         <link rel="stylesheet" href="res/styles.css">
     </head>
     <body>
-        <div style="margin-bottom:0px;" class="main-div">
-            <center>
-                <img height=45% src="res/logo-slogan.svg">
-            </center>
-        </div>
-        <div id="floating-images">
+        <div id="floating-images" style="z-index:1;">
             <div style="position:absolute;max-height:280px;max-width:150px;top:23%;left:23%;transform:rotate(11deg);">
-                <img style="max-height:250px;max-width:150px;" src="res/sample-art/sample-1.png">
+                <img style="z-index:1;max-height:250px;max-width:150px;" src="res/sample-art/sample-1.png">
                 <p style="float:right;margin:0px;font-size:12px;">@sample_user_1</p>
             </div>
             <div style="position:absolute;max-height:280px;max-width:250px;top:56%;left:4%;transform:rotate(-7deg);">
@@ -37,7 +32,41 @@
                 <p style="float:right;margin:0px;font-size:12px;">@sample_user_6</p>
             </div>
         </div>
-        <br><br><br><br><br><br><br><br><br><br><br><br>
+        <div style="padding:30px;margin-bottom:0px;position:relative;z-index:500;background:#F5F5FFCA" class="main-div">
+            <center>
+                <img style="z-index:500;width:100%;" src="res/logo-slogan.svg">
+            </center><br>
+            &emsp;&emsp;&emsp;With so many great artists around the internet, 
+            it can be really hard to save all the art you like while remembering 
+            who created it and where it came from. Furthermore, with so much 
+            great content comes a messy downloads folder! Image Sourcerer 
+            proposes a solution to both these problems.<br><br>
+            &emsp;&emsp;&emsp;By download art you like using Image Sourcerer, 
+            you can save all the images you'd like, then upload it to the 
+            decoder to display relevant information, including the artist, 
+            and a link to the original post.<br><br>
+            &emsp;&emsp;&emsp;When downloading images, you're prompted for 
+            where to save the image. Rather than wasting time clicking through 
+            folders and trying to find a good place to save your image, you 
+            can just type in the path and name of where to save it, quick and 
+            easy!<br><br><br>
+            &emsp;&emsp;&emsp;On supported sites, it's a simple matter of 
+            clicking the red download button and typing where you'd like 
+            to save it. For decoding, you can just head over to the 
+            <a href="https://jakeguy11.github.io/image-sourcerer-site/decode.html">
+            decode page</a> and upload any image you've downloaded to 
+            retrieve the saved data.<br><br>
+            &emsp;&emsp;&emsp;To download Image Sourcerer, head over to the 
+            <a href="https://jakeguy11.github.io/image-sourcerer-site/download.html">
+            Download</a> page. You can read more about the extension and 
+            how to use it on the <a href="https://jakeguy11.github.io/image-sourcerer-site/about.html">
+            About</a> and <a href="https://jakeguy11.github.io/image-sourcerer-site/help.html">
+            Help</a> pages. You can also join our community Discord server 
+            below.<br><br>
+            <center>
+                <a href="https://discord.gg/NQnk3R8u26"  target="_blank"><img width=50% src="res/join-discord.png"></a>
+            </center>
+        </div>
     </body>
     <script src="scripts/header.js"></script>
 </html>
