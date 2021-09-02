@@ -23,7 +23,7 @@ let footer_content = `
         </ul>
     </div>
     <div style="white-space:no-wrap;display:table-cell;width:1%;">
-        <img style="height:50px;margin:15px;" src="res/src/icon.svg">
+        <img style="height:50px;margin:15px;" src="res/icon.svg">
     </div>
     <div style="display:table-cell;vertical-align:middle;text-align:center;">
         <ul class="footer" style="marin-top:5px;">
