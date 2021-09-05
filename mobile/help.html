@@ -1,0 +1,172 @@
+<html>
+    <head>
+        <title>Image Sourcerer: Arichive, save and sort your favourite images!</title>
+        <link rel="icon" href="res/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div style="margin-bottom:0px;" class="main-div">
+            <center>
+                <h1>How To Use</h1>
+            </center>
+            &emsp;&emsp;&emsp;Whenever you see an image on supported sites, 
+            a red download icon will appear somewhere near it - it may be 
+            on a post the image is from, it may be in a nearby convienient 
+            spot, it may even be on the image itself. When you see one of 
+            these buttons around an image you would like to download, click 
+            it and follow the pop-up's instructions. Sometimes, there is only 
+            one download button for multiple images. When this is the case, 
+            you will be prompted for which image to download. When prompted 
+            for where to save the image, exclude the file extension. Non-latin 
+            characters <i>are</i> allowed. Images will be saved in <code>[your 
+            downloads folder]/Image-Sourcerer/[path that you enter]</code>. 
+            Adding a <code>/</code> to the path will save it into a subfolder.
+            <br><br>
+            &emsp;&emsp;&emsp;If you have followed these instructions but are 
+            still encountering a problem, do the following; Make sure you're 
+            on a supported site. The extension will never work if the site is 
+            not supported! Then, check the <b>Known Bugs</b> section. Some 
+            bugs are known about and are being worked on. If you still haven't 
+            found an answer, please navigate to the <b>Report a Bug</b> section 
+            below to let us know about it!
+            <center>
+                <h1 style="margin-top:50px;">Supported Sites</h1>
+            </center>
+            &emsp;&emsp;&emsp;Image Sourcerer is an extension that allows 
+            you to download images from supported sites. If the site is 
+            not explicitly supported by the extension, you will not be 
+            able to use it. The following is a list of currently supported 
+            sites and their statuses:
+            <ul>
+                <li style="font-size:18px;">Twitter</li>
+                <ul>
+                    <li style="font-size:14px;">Support is complete, no known bugs</li>
+                </ul>
+                <li style="font-size:18px;">Pixiv</li>
+                <ul>
+                    <li style="font-size:14px;">Support is nearing completion, 3 known bugs</li>
+                </ul>
+                <li style="font-size:18px;">Danbooru</li>
+                <ul>
+                    <li style="font-size:14px;">Support is complete, no known bugs</li>
+                </ul>
+                <li style="font-size:18px;">Reddit</li>
+                <ul>
+                    <li style="font-size:14px;">Support is minimal - do not use</li>
+                </ul>
+            </ul>
+            You can read more about any mentioned bugs in the <b>Known Bugs</b> 
+            section below. If you would like to see a site get support, read the 
+            <b>Request a Site</b> section below. If you would like an automatic 
+            form for site requests, consider donating in order to upgrade the 
+            server!
+            <center>
+                <h1 style="margin-top:50px;">Transferring Images</h1>
+            </center>
+            &emsp;&emsp;&emsp;Image Sourcerer stores data inside the images you 
+            download by appending a base-64 string on the end of the image. This 
+            is fairly easy to accomplish, but because it's not nessisary to the 
+            actual image data, some tools will remove it when you open the image. 
+            In general, any tool or site that can change the image's contents will 
+            remove it. Sites like Twitter and imgur also downscale images to save 
+            storage, so the data will be lost if you upload it to those. Raw transfers 
+            will not loose the data, for example sending it over Discord or SMS. Some 
+            email services will remove it, so be cautious.
+            <center>
+                <h1 style="margin-top:50px;">Known Bugs</h1>
+            </center>
+            &emsp;&emsp;&emsp;Below is a list of known bugs. The 
+            <a style="color:#639d66">■</a> green entries are currently 
+            being resolved by a developer, the <a style="color:#d5ca6a">
+            ■</a> yellow entries are in the backlog and will be resolved 
+            in the near future, the <a style="color:#c94141">■</a> red 
+            entries are known and in the backlog, but will likely not be 
+            resolved at any time in the near future, and 
+            <a style="color:#6699cc">■</a> blue entries are not bugs. 
+            Read their description for further information. This list is 
+            subject to change, so be sure to check it often.
+            <ul>
+                <li style="font-size:18px;">Pixiv</li>
+                <ul class="bug-list" style="font-size:14px;">
+                    <li class="bug-green">Download button does not load on 
+                    some sites. Temporary work-around: reload the page until 
+                    it shows.</li>
+                    <li class="bug-yellow">On pages with more than 5 or 6 
+                    images, the download functionality is disabled. There is 
+                    no work-around currently.</li>
+                    <li class="bug-blue">Download times on all Pixiv images 
+                    are very long. This is because a proxy server is needed for 
+                    downloads. Consider donating to decrease the download times! 
+                    <b>Note that you must wait until the download is complete to 
+                    close the tab, or else the image will not download!</b></li>
+                </ul>
+            </ul>
+            <center>
+                <h1 style="margin-top:50px;">Request A Site</h1>
+            </center>
+            &emsp;&emsp;&emsp;As mentioned above, only supported sites let you 
+            download images from them. Programming support for a site can take 
+            anywhere from a week to multiple months depending on how it is 
+            designed. Because of this, it may take a while to add support for 
+            a site you request, so please be patient.<br><br>
+            &emsp;&emsp;&emsp;There are a few ways to request support for a 
+            site. First, and most effective, is to <a target="_blank" href="https://discord.gg/NQnk3R8u26">join the Discord</a> 
+            and send your request to <i>#site-request</i>. Alternatively, 
+            you can email us at image.sourcerer.extension@gmail.com.<br><br>
+            &emsp;&emsp;&emsp;If you would like an official form for site 
+            requests, please consider donating so we can afford a server 
+            that supports it! You can find more details in the 
+            <a href="https://jakeguy11.github.io/image-sourcerer-site/contribute.html">Contribute</a> page.
+            <center>
+                <h1 style="margin-top:50px;">Contact the Devs</h1>
+            </center>
+            &emsp;&emsp;&emsp;Below is a list of ways you can contact the devs. 
+            If you would like to see contact them about a specific issue (ex. reporting 
+            a bug, requesting a site, etc.), please follow the instructions in 
+            their section.
+            <ul>
+                <li><a target="_blank" href="https://discord.gg/NQnk3R8u26">Join the Discord</a></li>
+                <li>DM JakeGuy11#1541 on Discord</li>
+                <li><a target="_blank" href="https://github.com/JakeGuy11/image-sourcerer/issues">File an issue through GitHub</a></li>
+                <li>Email us at image.sourcerer.extension@gmail.com</li>
+            </ul>
+            &emsp;&emsp;&emsp;If you would like to see an automatic form 
+            for contacting the devs, please consider donating so we can 
+            afford a server with that capability! You can find more details 
+            in the <a href="https://jakeguy11.github.io/image-sourcerer-site/contribute.html">Contribute</a> page.
+            <center>
+                <h1 style="margin-top:50px;">Report A Bug</h1>
+            </center>
+            &emsp;&emsp;&emsp;Before reporting a bug, make sure you've read the 
+            <b>How To Use</b> section.<br>
+            If you think you've discovered a bug, you can contact the devs about 
+            it through the <a target="_blank" href="https://discord.gg/NQnk3R8u26">Discord server</a>, 
+            DM me on discord at JakeGuy11#1541, or email us at image.sourcerer.extension@gmail.com.
+            When reporting a bug, make sure to include the following information:
+            <ul>
+                <li>A detailed description of what should be happening</li>
+                <li>A detailed description of what <i>is</i> happening</li>
+                <li>In what situations the bug occurs</li>
+                <li>All error messages, if there are any</li>
+                <li>Whether or not you have tried anything to fix it, and if so, what</li>
+            </ul>
+            &emsp;&emsp;&emsp;If you would like an official form for reporting 
+            bugs, please consider donating so we can afford a server that 
+            supports it! You can find more details in the 
+            <a href="https://jakeguy11.github.io/image-sourcerer-site/contribute.html">Contribute</a> page.
+            <center>
+                <h1 style="margin-top:50px;">Report Abuse</h1>
+            </center>
+            &emsp;&emsp;&emsp;If you know of someone abusing Image Sourcerer for 
+            malicious purposes, or see a way that it could easily be used that 
+            way, we want to know about it! Please send us a message in the 
+            <i>#report-abuse</i> channel of our <a target="_blank" href="https://discord.gg/NQnk3R8u26">Discord server</a>, 
+            DM me at JakeGuy11#1541, or email us at image.sourcerer.extension@gmail.com.<br><br>
+            &emsp;&emsp;&emsp;If you would like an official form for reporting 
+            abuse, please consider donating so we can afford a server that 
+            supports it! You can find more details in the 
+            <a href="https://jakeguy11.github.io/image-sourcerer-site/contribute.html">Contribute</a> page.
+        </div>
+    </body>
+    <script src="scripts/header.js"></script>
+</html>
