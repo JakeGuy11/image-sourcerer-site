@@ -44,6 +44,8 @@ ul.header {
 li.header {
 	display: inline;
 	float: right;
+    height: 120px;
+    width: 120px;
 }
 
 ul.bug-list {
@@ -103,4 +105,17 @@ li.bug-blue::before {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#dropdown-menu {
+    position: fixed;
+    z-index: 1000;
+    top: 30px;
+    right: 25px;
+
+    padding: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 2px;
+    background: #F5F5FF;
 }
