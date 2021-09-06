@@ -12,18 +12,21 @@ let header_content = `
             <div class="dropdown-entry"><a href="about.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/about.svg"></a></div>
             <div class="dropdown-entry"><a href="contribute.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/contribute.svg"></a></div>
             <div class="dropdown-entry"><a href="download.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/download.svg"></a></div>
+            <div id="copyright-div" style="bottom:0px;font-size:12px;">
+                Copyright &copy; 2021 JakeGuy11
+            </div>
         </center>
     </div>
 </div>
 `;
 
 let footer_content = `
-<div id="copyright-div" style="bottom:0px;z-index:999;background:#F5F5FFDC;font-size:12px;">
+<div id="copyright-div" style="bottom:0px;font-size:12px;">
     Copyright &copy; 2021 JakeGuy11
 </div>
 `;
 
-document.body.innerHTML = header_content + document.body.innerHTML + footer_content;
+document.body.innerHTML = header_content + document.body.innerHTML;
 
 document.getElementById("show-menu").addEventListener("click", function() {
     document.getElementById("dropdown-menu").style.opacity = "1";
