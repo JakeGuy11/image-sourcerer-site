@@ -114,8 +114,9 @@ li.bug-blue::before {
     right: 25px;
 
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 15px 0px 15px 15px;
     border-style: solid;
     border-width: 2px;
     background: #F5F5FF;
+	transition: 0.5s;
 }
