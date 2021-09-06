@@ -1,3 +1,8 @@
+// Redirect the user if they're on a bad device
+//let small_screen = ((window.innerWidth / window.innerHeight) < 1.2);
+let mobile_device = /\b(BlackBerry|webOS|IEMobile|Windows Phone|Android|iPod|iPad|iPhone)\b/i.test(navigator.userAgent);
+if (mobile_device) window.location = "mobile/index.html";
+
 let header_content = `
 <ul class="header">
     <li style="padding:0px;float:left;"><a href="index.html"><img style="height:100px;margin:10px;" src="res/logo.svg"></a></li>
