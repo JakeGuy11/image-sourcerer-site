@@ -107,6 +107,16 @@ li.bug-blue::before {
     align-items: center;
 }
 
+.dropdown-entry {
+	transition: 0.5s;
+	width: 100%;
+}
+
+.dropdown-entry:hover {
+	background: #BF899F;
+	transition: 0.5s;
+}
+
 #dropdown-menu {
     position: fixed;
     z-index: 1000;
