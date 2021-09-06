@@ -1,7 +1,8 @@
 // Redirect the user if they're on a bad device
 let small_screen = ((window.innerWidth / window.innerHeight) < 1.2);
 let mobile_device = /\b(BlackBerry|webOS|IEMobile|Windows Phone|Android|iPod|iPad|iPhone)\b/i.test(navigator.userAgent);
-if (small_screen || mobile_device) window.location = "mobile/index.html";
+let mobile_mac_pro = /Macintosh/i.test(navigator.userAgent) && (( 'ontouchstart' in window ) || ( navigator.maxTouchPoints > 0 ) || ( navigator.msMaxTouchPoints > 0 ));
+if (small_screen || mobile_device || mobile_mac_pro) window.location = "mobile/index.html";
 
 let header_content = `
 <ul class="header">
