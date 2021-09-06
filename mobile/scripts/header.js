@@ -7,11 +7,11 @@ let header_content = `
     <img id="close-menu" height=42px style="display:inline-block;top:5px;float:right;" src="res/close-button.svg">
     <div style="display:block;margin-right:45px;">
         <center>
-            <div class="dropdown-entry"><a href="decode.html"><img style="padding:15px;height:32px;display:block;" src="res/menu-options/decode.svg"></a></div>
-            <div class="dropdown-entry"><a href="help.html"><img style="padding:15px;height:42px;display:block;" src="res/menu-options/help.svg"></a></div>
-            <div class="dropdown-entry"><a href="about.html"><img style="padding:15px;height:32px;display:block;" src="res/menu-options/about.svg"></a></div>
-            <div class="dropdown-entry"><a href="contribute.html"><img style="padding:15px;height:32px;display:block;" src="res/menu-options/contribute.svg"></a></div>
-            <div class="dropdown-entry"><a href="download.html"><img style="padding:15px;height:32px;display:block;" src="res/menu-options/download.svg"></a></div>
+            <div class="dropdown-entry"><a href="decode.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/decode.svg"></a></div>
+            <div class="dropdown-entry"><a href="help.html"><img style="padding:10px;padding-bottom:5px;height:63px;display:block;" src="res/menu-options/help.svg"></a></div>
+            <div class="dropdown-entry"><a href="about.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/about.svg"></a></div>
+            <div class="dropdown-entry"><a href="contribute.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/contribute.svg"></a></div>
+            <div class="dropdown-entry"><a href="download.html"><img style="padding:15px;height:48px;display:block;" src="res/menu-options/download.svg"></a></div>
         </center>
     </div>
 </div>
