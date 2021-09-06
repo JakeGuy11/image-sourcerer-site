@@ -1,7 +1,7 @@
 let header_content = `
 <ul class="header">
     <li style="padding:0px;float:left;"><a href="index.html"><img style="height:100px;margin:10px;" src="res/logo.svg"></a></li>
-    <li class="header"><div style="height:120px;width:120px;display:table-cell;vertical-align:middle;text-align:center;"><img id="show-menu" height=42px src="res/menu.svg"></div></li>
+    <li class="header"><div style="height:120px;width:120px;display:table-cell;vertical-align:middle;text-align:center;"><img id="show-menu" style="height:42px;transition:0.5s;" src="res/menu.svg"></div></li>
 </ul>
 <div id="dropdown-menu" style="opacity:0;visibility:hidden;">
     <img id="close-menu" height=42px style="display:inline-block;top:5px;float:right;" src="res/close-button.svg">
@@ -28,10 +28,12 @@ document.body.innerHTML = header_content + document.body.innerHTML + footer_cont
 document.getElementById("show-menu").addEventListener("click", function() {
     document.getElementById("dropdown-menu").style.opacity = "1";
     document.getElementById("dropdown-menu").style.visibility = "visible";
+    document.getElementById("show-menu").style.transform = "rotate(90deg)";
 });
 
 document.getElementById("close-menu").addEventListener("click", function() {
     document.getElementById("dropdown-menu").style.opacity = "0";
     document.getElementById("dropdown-menu").style.visibility = "hidden";
+    document.getElementById("show-menu").style.transform = "rotate(0deg)";
 });
 
