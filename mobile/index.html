@@ -51,7 +51,7 @@
                 <a href="https://discord.gg/NQnk3R8u26"  target="_blank"><img width=50% src="res/join-discord.png"></a>
             </center>
         </div>
-        <div id="floating-images" style="z-index:1;">
+        <div id="img-holder" style="position:fixed;top:0;left:0;">
             <div style="position:absolute;height:30%;width:10px;top:19%;left:25%;transform:rotate(11deg);">
                 <img style="float:right;z-index:1;height:90%;" src="res/sample-art/sample-1.png">
                 <p style="float:right;margin:0px;font-size:12px;">@sample_user_1</p>
@@ -73,11 +73,16 @@
                 <img style="float:right;height:90%;" src="res/sample-art/sample-5.png">
                 <p style="float:right;margin:0px;font-size:12px;">@sample_user_5</p>
             </div>
-            <div style="position:absolute;height:32%;width:10px;top:82%;right:10%;transform:rotate(11deg);">
+            <div style="position:absolute;height:32%;width:10px;top:300%;right:10%;transform:rotate(11deg);">
                 <img style="float:right;height:90%;" src="res/sample-art/sample-6.png">
                 <p style="float:right;margin:0px;font-size:12px;">@sample_user_6</p>
             </div>
         </div>
     </body>
     <script src="scripts/header.js"></script>
+    <script>
+        document.getElementById("img-holder").style.height = document.body.offsetHeight + "px";
+        document.getElementById("img-holder").style.width = "100%";
+        document.getElementById("img-holder").style.overflow = "hidden";
+    </script>
 </html>
