@@ -148,3 +148,27 @@ li.bug-blue::before {
     margin-top: 20px;
 }
 
+.merch-row {
+    display: flex;
+}
+
+.merch-column {
+    flex: 50%;
+}
+
+.merch-box-top {
+    margin: 10px;
+    margin-bottom: 0px;
+    height: 160px;
+    background: #000000;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.merch-box-bottom {
+    margin: 10px;
+    margin-top: 0px;
+    height: 30px;
+    background: #AAAAAA;
+    border-radius: 0px 0px 10px 10px;
+}
+
