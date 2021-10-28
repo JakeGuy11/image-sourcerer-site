@@ -159,7 +159,6 @@ li.bug-blue::before {
 .merch-box-top {
     margin: 10px;
     margin-bottom: 0px;
-    height: 160px;
     background: #000000;
     border-radius: 10px 10px 0px 0px;
 }
@@ -167,8 +166,20 @@ li.bug-blue::before {
 .merch-box-bottom {
     margin: 10px;
     margin-top: 0px;
-    height: 30px;
+    padding: 5px;
     background: #AAAAAA;
     border-radius: 0px 0px 10px 10px;
+}
+
+.merch-logo {
+    height: 32px;
+    width: 32px;
+    display: inline;
+}
+
+.merch-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
 }
 
