@@ -21,7 +21,7 @@ body
     margin-bottom: 0px;
     position: relative;
     z-index: 500;
-    background: #F5F5F5CA;
+    background: #F5F5FFCA;
 }
 
 body::-webkit-scrollbar {
