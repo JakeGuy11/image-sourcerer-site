@@ -152,6 +152,11 @@ li.bug-blue::before {
     display: flex;
 }
 
+.merch-row a {
+    text-decoration: none;
+    color: black;
+}
+
 .merch-column {
     flex: 50%;
 }
@@ -164,6 +169,8 @@ li.bug-blue::before {
 }
 
 .merch-box-bottom {
+    display: flex;
+    align-items: center;
     margin: 10px;
     margin-top: 0px;
     padding: 5px;
@@ -174,6 +181,7 @@ li.bug-blue::before {
 .merch-logo {
     height: 32px;
     width: 32px;
+    margin: 5px;
     display: inline;
 }
 
@@ -181,5 +189,10 @@ li.bug-blue::before {
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0px 0px;
+}
+
+.merch_box_text {
+    display: inline;
+    margin: 5px;
 }
 
