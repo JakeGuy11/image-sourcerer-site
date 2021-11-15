@@ -129,3 +129,52 @@ li.bug-blue::before {
     background: #F5F5FF;
 	transition: 0.5s;
 }
+
+.merch-row {
+    display: flex;
+}
+
+.merch-row a {
+    text-decoration: none;
+    color: black;
+}
+
+.merch-column {
+    flex: 50%;
+}
+
+.merch-box-top {
+    margin: 10px;
+    margin-bottom: 0px;
+    background: #000000;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.merch-box-bottom {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-top: 0px;
+    padding: 5px;
+    background: #AAAAAA;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.merch-logo {
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+    display: inline;
+}
+
+.merch-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.merch_box_text {
+    display: inline;
+    margin: 5px;
+}
+
