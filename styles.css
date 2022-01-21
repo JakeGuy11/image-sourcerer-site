@@ -196,3 +196,16 @@ li.bug-blue::before {
     margin: 5px;
 }
 
+.url_input {
+    margin: 10px;
+    margin-top: 5px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #999999;
+    background: #F5F5FFFF;
+    border-radius: 15px;
+}
+
