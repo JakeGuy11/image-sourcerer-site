@@ -209,3 +209,14 @@ li.bug-blue::before {
     border-radius: 15px;
 }
 
+.url_button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    outline: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #999999;
+    background: #F5F5FF;
+    border-radius: 10px;
+}
