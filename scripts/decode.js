@@ -88,6 +88,10 @@ function url_to_b64(url, callback) {
     xhr.send();
 }
 
+/*
+    This is the actual thing that decodes the b64 data and adds it to the screen
+*/
+
 function b64_to_entry(base64_data, show_error) {
     var injection_data = `
     <div style="margin:25px;">
